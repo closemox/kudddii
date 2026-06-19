@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kuddi - Hero Section Wireframe</title>
+    <link rel="stylesheet" href="hero-wireframe.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Tenor+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Top Announcement Bar -->
+    <div class="announcement-bar top-bar">
+        <p>Upto 70% off + Additional 30% off at checkout, Code: <span class="coupon">WEDDING30</span></p>
+    </div>
+
+    <!-- Secondary Announcement Bar -->
+    <div class="announcement-bar secondary-bar">
+        <p>CRAFTED FOR THE TIMELESS YOU</p>
+        <i class="fa-solid fa-chevron-right"></i>
+    </div>
+
+    <!-- Main Header -->
+    <header class="main-header">
+        <div class="header-left">
+            <h1 class="logo">Kuddi</h1>
+        </div>
+        
+        <nav class="header-center">
+            <ul class="nav-links">
+                <li><a href="#">SHOP ALL</a></li>
+                <li class="has-mega-menu">
+                    <a href="#">SHOP BY CATEGORY</a>
+                    <!-- Mega Menu Dropdown -->
+                    <div class="mega-menu">
+                        <div class="mega-menu-content">
+                            <div class="mega-column">
+                                <h3>Featured</h3>
+                                <ul>
+                                    <li><a href="#">New Arrivals</a></li>
+                                    <li><a href="#">Best Sellers</a></li>
+                                    <li><a href="#">Trending Now</a></li>
+                                    <li><a href="#">Sale</a></li>
+                                </ul>
+                            </div>
+                            <div class="mega-column">
+                                <h3>Clothing</h3>
+                                <ul>
+                                    <li><a href="#">Kurtas</a></li>
+                                    <li><a href="#">Kurtis</a></li>
+                                    <li><a href="#">Suit Sets</a></li>
+                                    <li><a href="#">Co-ord Sets</a></li>
+                                    <li><a href="#">Dresses</a></li>
+                                </ul>
+                            </div>
+                            <div class="mega-column">
+                                <h3>Bottomwear</h3>
+                                <ul>
+                                    <li><a href="#">Palazzos</a></li>
+                                    <li><a href="#">Pants</a></li>
+                                    <li><a href="#">Skirts</a></li>
+                                    <li><a href="#">Shararas</a></li>
+                                </ul>
+                            </div>
+                            <div class="mega-column">
+                                <h3>Fabric</h3>
+                                <ul>
+                                    <li><a href="#">Cotton</a></li>
+                                    <li><a href="#">Silk</a></li>
+                                    <li><a href="#">Chanderi</a></li>
+                                    <li><a href="#">Rayon</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="#">SHOP BY OCCASIONS</a></li>
+                <li><a href="#">LUXURY COLLECTION</a></li>
+                <li><a href="#">GIFT CARD</a></li>
+            </ul>
+        </nav>
+        
+        <div class="header-right">
+            <div class="currency-selector">
+                <img src="https://flagcdn.com/w20/in.png" alt="India Flag" class="flag">
+                <span>INR</span>
+                <i class="fa-solid fa-chevron-down"></i>
+            </div>
+            <a href="#" class="icon-link"><i class="fa-solid fa-magnifying-glass"></i></a>
+            <a href="#" class="icon-link"><i class="fa-regular fa-user"></i></a>
+            <a href="#" class="icon-link"><i class="fa-solid fa-bag-shopping"></i></a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2 class="hero-subheading">A SYMPHONY OF THREADS</h2>
+            <h1 class="hero-heading">Timeless Elegance in Every Kurti</h1>
+            <a href="#" class="hero-cta-btn">SHOP THE COLLECTION</a>
+        </div>
+    </section>
+
+    <!-- Circular Categories Section -->
+    <section class="circular-categories">
+        <div class="categories-container">
+            <a href="#" class="circle-item">
+                <div class="circle-img-wrap">
+                    <img src="images/product imgs (1).jpg" alt="Cotton Kurtis">
+                </div>
+                <span class="circle-label">Cotton Kurtis</span>
+            </a>
+            <a href="#" class="circle-item">
+                <div class="circle-img-wrap">
+                    <img src="images/product imgs (2).webp" alt="Silk Kurtis">
+                </div>
+                <span class="circle-label">Silk Kurtis</span>
+            </a>
+            <a href="#" class="circle-item">
+                <div class="circle-img-wrap">
+                    <img src="images/product imgs (3).webp" alt="Party Wear">
+                </div>
+                <span class="circle-label">Party Wear</span>
+            </a>
+            <a href="#" class="circle-item">
+                <div class="circle-img-wrap">
+                    <img src="images/product imgs (4).webp" alt="Daily Wear">
+                </div>
+                <span class="circle-label">Daily Wear</span>
+            </a>
+            <a href="#" class="circle-item">
+                <div class="circle-img-wrap">
+                    <img src="images/product imgs (5).webp" alt="Short Kurtis">
+                </div>
+                <span class="circle-label">Short Kurtis</span>
+            </a>
+            <a href="#" class="circle-item">
+                <div class="circle-img-wrap">
+                    <img src="images/product imgs (1).webp" alt="Long Kurtis">
+                </div>
+                <span class="circle-label">Long Kurtis</span>
+            </a>
+        </div>
+        <div class="scroll-hint-arrow" onclick="document.querySelector('.categories-container').scrollBy({left: 150, behavior: 'smooth'})">
+            <i class="fa-solid fa-chevron-right"></i>
+        </div>
+    </section>
+
+    <!-- Category Showcase Section -->
+    <section class="category-showcase">
+        <div class="showcase-header">
+            <p class="subtitle">CURATED STYLES, FOR EVERY OCCASION</p>
+            <h2 class="title">EVERYDAY ESSENTIALS</h2>
+        </div>
+        
+        <div class="showcase-grid">
+            <div class="category-card">
+                <div class="img-wrapper">
+                    <img src="images/product imgs (1).webp" alt="Festive Kurtas">
+                </div>
+                <div class="card-label">FESTIVE KURTAS</div>
+            </div>
+            <div class="category-card">
+                <div class="img-wrapper">
+                    <img src="images/product imgs (2).webp" alt="Casual Kurtis">
+                </div>
+                <div class="card-label">CASUAL KURTIS</div>
+            </div>
+            <div class="category-card">
+                <div class="img-wrapper">
+                    <img src="images/product imgs (3).webp" alt="Co-ord Sets">
+                </div>
+                <div class="card-label">CO-ORD SETS</div>
+            </div>
+            <div class="category-card">
+                <div class="img-wrapper">
+                    <img src="images/product imgs (4).webp" alt="Suit Sets">
+                </div>
+                <div class="card-label">SUIT SETS</div>
+            </div>
+            <div class="category-card">
+                <div class="img-wrapper">
+                    <img src="images/product imgs (5).webp" alt="Anarkalis">
+                </div>
+                <div class="card-label">ANARKALIS</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- New Arrivals Section -->
+    <section class="new-arrivals-section">
+        <div class="section-header-flex"><h2 class="section-title-left">Best Sellers</h2><a href="#" class="view-all-link">View all ?</a></div>
+        
+        <div class="product-grid">
+            <!-- Product 1 -->
+            <div class="product-card">
+                <div class="product-img-box">
+                    <span class="discount-tag">30% OFF AT CHECKOUT</span>
+                    <img src="images/product imgs (1).webp" alt="Elegant Maroon Kurti">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-title">Elegant Maroon Embroidered Kurti</h3>
+                    <div class="product-rating"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                    <div class="product-pricing">
+                        <span class="original-price">₹4,999</span>
+                        <span class="discounted-price">₹2,999</span>
+                        <span class="discount-percent">40% Off</span>
+                    </div>
+                    <button class="add-to-cart-btn">ADD TO CART</button>
+                </div>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product-card">
+                <div class="product-img-box">
+                    <span class="discount-tag">30% OFF AT CHECKOUT</span>
+                    <img src="images/product imgs (2).webp" alt="Sunshine Yellow Suit Set">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-title">Sunshine Yellow Cotton Suit Set</h3>
+                    <div class="product-rating"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                    <div class="product-pricing">
+                        <span class="original-price">₹3,500</span>
+                        <span class="discounted-price">₹1,750</span>
+                        <span class="discount-percent">50% Off</span>
+                    </div>
+                    <button class="add-to-cart-btn">ADD TO CART</button>
+                </div>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product-card">
+                <div class="product-img-box">
+                    <span class="discount-tag">30% OFF AT CHECKOUT</span>
+                    <img src="images/product imgs (3).webp" alt="Midnight Blue Anarkali">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-title">Midnight Blue Party Wear Anarkali</h3>
+                    <div class="product-rating"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                    <div class="product-pricing">
+                        <span class="original-price">₹6,999</span>
+                        <span class="discounted-price">₹4,549</span>
+                        <span class="discount-percent">35% Off</span>
+                    </div>
+                    <button class="add-to-cart-btn">ADD TO CART</button>
+                </div>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="product-card">
+                <div class="product-img-box">
+                    <span class="discount-tag">30% OFF AT CHECKOUT</span>
+                    <img src="images/product imgs (4).webp" alt="Blush Pink Co-ord Set">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-title">Blush Pink Floral Co-ord Set</h3>
+                    <div class="product-rating"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                    <div class="product-pricing">
+                        <span class="original-price">₹2,999</span>
+                        <span class="discounted-price">₹1,499</span>
+                        <span class="discount-percent">50% Off</span>
+                    </div>
+                    <button class="add-to-cart-btn">ADD TO CART</button>
+                </div>
+            </div>
+
+            <!-- Product 5 -->
+            <div class="product-card">
+                <div class="product-img-box">
+                    <span class="discount-tag">30% OFF AT CHECKOUT</span>
+                    <img src="images/product imgs (5).webp" alt="Ivory White Chanderi Kurta">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-title">Ivory White Chanderi Kurta</h3>
+                    <div class="product-rating"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                    <div class="product-pricing">
+                        <span class="original-price">₹5,499</span>
+                        <span class="discounted-price">₹3,299</span>
+                        <span class="discount-percent">40% Off</span>
+                    </div>
+                    <button class="add-to-cart-btn">ADD TO CART</button>
+                </div>
+            </div>
+
+            <!-- Product 6 -->
+            <div class="product-card">
+                <div class="product-img-box">
+                    <span class="discount-tag">30% OFF AT CHECKOUT</span>
+                    <img src="images/product imgs (1).webp" alt="Emerald Green Festal Kurti">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-title">Emerald Green Festal Kurti</h3>
+                    <div class="product-rating"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                    <div class="product-pricing">
+                        <span class="original-price">₹3,999</span>
+                        <span class="discounted-price">₹2,199</span>
+                        <span class="discount-percent">45% Off</span>
+                    </div>
+                    <button class="add-to-cart-btn">ADD TO CART</button>
+                </div>
+            </div>
+
+            <!-- Product 7 -->
+            <div class="product-card">
+                <div class="product-img-box">
+                    <span class="discount-tag">30% OFF AT CHECKOUT</span>
+                    <img src="images/product imgs (2).webp" alt="Ruby Red Silk Blend Suit Set">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-title">Ruby Red Silk Blend Suit Set</h3>
+                    <div class="product-rating"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                    <div class="product-pricing">
+                        <span class="original-price">₹7,500</span>
+                        <span class="discounted-price">₹4,875</span>
+                        <span class="discount-percent">35% Off</span>
+                    </div>
+                    <button class="add-to-cart-btn">ADD TO CART</button>
+                </div>
+            </div>
+
+            <!-- Product 8 -->
+            <div class="product-card">
+                <div class="product-img-box">
+                    <span class="discount-tag">30% OFF AT CHECKOUT</span>
+                    <img src="images/product imgs (3).webp" alt="Sapphire Blue Daily Wear Kurti">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-title">Sapphire Blue Daily Wear Kurti</h3>
+                    <div class="product-rating"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                    <div class="product-pricing">
+                        <span class="original-price">₹2,499</span>
+                        <span class="discounted-price">₹1,249</span>
+                        <span class="discount-percent">50% Off</span>
+                    </div>
+                    <button class="add-to-cart-btn">ADD TO CART</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="view-all-wrapper">
+            <a href="#" class="view-all-btn">VIEW ALL PRODUCTS</a>
+        </div>
+    </section>
+
+
+    <!-- Bento Grid Section -->
+    <section class="grid-banner-section">
+        <div class="grid-header">
+            <span class="subtitle">JEWELLED ELEGANCE. CRAFTED TO IMPRESS</span>
+            <h2 class="title">LUXE EDITION</h2>
+        </div>
+        <div class="bento-grid">
+            <div class="bento-item item-small">
+                <img src="images/product imgs (1).webp" alt="Eternal Amour">
+                <div class="bento-overlay">
+                    <h3>THE CHANDERI EDIT</h3>
+                </div>
+            </div>
+            <div class="bento-item item-large">
+                <img src="images/hero banner desktop.png" alt="Jewel Bastion">
+                <div class="bento-overlay">
+                    <h3>FESTIVE GRACE</h3>
+                </div>
+            </div>
+            <div class="bento-item item-large">
+                <img src="images/announcement banner.png" alt="The Auric Edition">
+                <div class="bento-overlay">
+                    <h3>ROYAL ANARKALI</h3>
+                </div>
+            </div>
+            <div class="bento-item item-small">
+                <img src="images/product imgs (2).webp" alt="Urban Whisper">
+                <div class="bento-overlay">
+                    <h3>EVERYDAY ELEGANCE</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Second Category Showcase Section -->
+    <section class="category-showcase">
+        <div class="showcase-header">
+            <p class="subtitle">EXPLORE OUR MOST LOVED</p>
+            <h2 class="title">TRENDING NOW</h2>
+        </div>
+        
+        <div class="showcase-grid">
+            <div class="category-card">
+                <div class="img-wrapper">
+                    <img src="images/product imgs (5).webp" alt="Wedding Wear">
+                </div>
+                <div class="card-label">WEDDING WEAR</div>
+            </div>
+            <div class="category-card">
+                <div class="img-wrapper">
+                    <img src="images/product imgs (4).webp" alt="Office Kurtis">
+                </div>
+                <div class="card-label">OFFICE KURTIS</div>
+            </div>
+            <div class="category-card">
+                <div class="img-wrapper">
+                    <img src="images/product imgs (3).webp" alt="Sharara Sets">
+                </div>
+                <div class="card-label">SHARARA SETS</div>
+            </div>
+            <div class="category-card">
+                <div class="img-wrapper">
+                    <img src="images/product imgs (2).webp" alt="Maxi Dresses">
+                </div>
+                <div class="card-label">MAXI DRESSES</div>
+            </div>
+            <div class="category-card">
+                <div class="img-wrapper">
+                    <img src="images/product imgs (1).webp" alt="Loungewear">
+                </div>
+                <div class="card-label">LOUNGEWEAR</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Scrolling Announcement Banner Section -->
+    <section class="scrolling-banner-section" style="background-image: url('images/announcement banner.png');">
+        <div class="marquee-wrapper">
+            <div class="marquee-text">
+                A curation of timeless elegance. &nbsp; &nbsp; A curation of timeless elegance. &nbsp; &nbsp; A curation of timeless elegance. &nbsp; &nbsp; A curation of timeless elegance. &nbsp; &nbsp; A curation of timeless elegance. &nbsp; &nbsp; A curation of timeless elegance. &nbsp; &nbsp; A curation of timeless elegance. &nbsp; &nbsp; A curation of timeless elegance. &nbsp; &nbsp;
+            </div>
+        </div>
+        <a href="#" class="shop-now-overlay-btn">Shop Now</a>
+    </section>
+
+    <!-- Social Reviews Section -->
+    <section class="social-reviews-section">
+        <h2 class="section-title">SPOTTED IN KUDDI</h2>
+        <div class="reviews-marquee-wrapper">
+            <div class="reviews-track">
+                <!-- Original Items -->
+                <div class="review-card">
+                    <img src="images/product imgs (1).webp" class="review-img" alt="Review">
+                    <div class="review-product-box">
+                        <img src="images/product imgs (1).webp" class="review-thumb" alt="Thumb">
+                        <div class="review-details">
+                            <span class="review-title">Maroon Embroider...</span>
+                            <span class="review-price">Rs. 2999.00</span>
+                        </div>
+                        <a href="#" class="review-shop-btn">SHOP</a>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <img src="images/product imgs (2).webp" class="review-img" alt="Review">
+                    <div class="review-product-box">
+                        <img src="images/product imgs (2).webp" class="review-thumb" alt="Thumb">
+                        <div class="review-details">
+                            <span class="review-title">Yellow Suit Set</span>
+                            <span class="review-price">Rs. 1750.00</span>
+                        </div>
+                        <a href="#" class="review-shop-btn">SHOP</a>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <img src="images/product imgs (3).webp" class="review-img" alt="Review">
+                    <div class="review-product-box">
+                        <img src="images/product imgs (3).webp" class="review-thumb" alt="Thumb">
+                        <div class="review-details">
+                            <span class="review-title">Blue Anarkali</span>
+                            <span class="review-price">Rs. 4549.00</span>
+                        </div>
+                        <a href="#" class="review-shop-btn">SHOP</a>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <img src="images/product imgs (4).webp" class="review-img" alt="Review">
+                    <div class="review-product-box">
+                        <img src="images/product imgs (4).webp" class="review-thumb" alt="Thumb">
+                        <div class="review-details">
+                            <span class="review-title">Pink Co-ord Set</span>
+                            <span class="review-price">Rs. 1499.00</span>
+                        </div>
+                        <a href="#" class="review-shop-btn">SHOP</a>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <img src="images/product imgs (5).webp" class="review-img" alt="Review">
+                    <div class="review-product-box">
+                        <img src="images/product imgs (5).webp" class="review-thumb" alt="Thumb">
+                        <div class="review-details">
+                            <span class="review-title">White Chanderi</span>
+                            <span class="review-price">Rs. 3299.00</span>
+                        </div>
+                        <a href="#" class="review-shop-btn">SHOP</a>
+                    </div>
+                </div>
+
+                <!-- Duplicated Items for Infinite Scroll -->
+                <div class="review-card">
+                    <img src="images/product imgs (1).webp" class="review-img" alt="Review">
+                    <div class="review-product-box">
+                        <img src="images/product imgs (1).webp" class="review-thumb" alt="Thumb">
+                        <div class="review-details">
+                            <span class="review-title">Maroon Embroider...</span>
+                            <span class="review-price">Rs. 2999.00</span>
+                        </div>
+                        <a href="#" class="review-shop-btn">SHOP</a>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <img src="images/product imgs (2).webp" class="review-img" alt="Review">
+                    <div class="review-product-box">
+                        <img src="images/product imgs (2).webp" class="review-thumb" alt="Thumb">
+                        <div class="review-details">
+                            <span class="review-title">Yellow Suit Set</span>
+                            <span class="review-price">Rs. 1750.00</span>
+                        </div>
+                        <a href="#" class="review-shop-btn">SHOP</a>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <img src="images/product imgs (3).webp" class="review-img" alt="Review">
+                    <div class="review-product-box">
+                        <img src="images/product imgs (3).webp" class="review-thumb" alt="Thumb">
+                        <div class="review-details">
+                            <span class="review-title">Blue Anarkali</span>
+                            <span class="review-price">Rs. 4549.00</span>
+                        </div>
+                        <a href="#" class="review-shop-btn">SHOP</a>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <img src="images/product imgs (4).webp" class="review-img" alt="Review">
+                    <div class="review-product-box">
+                        <img src="images/product imgs (4).webp" class="review-thumb" alt="Thumb">
+                        <div class="review-details">
+                            <span class="review-title">Pink Co-ord Set</span>
+                            <span class="review-price">Rs. 1499.00</span>
+                        </div>
+                        <a href="#" class="review-shop-btn">SHOP</a>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <img src="images/product imgs (5).webp" class="review-img" alt="Review">
+                    <div class="review-product-box">
+                        <img src="images/product imgs (5).webp" class="review-thumb" alt="Thumb">
+                        <div class="review-details">
+                            <span class="review-title">White Chanderi</span>
+                            <span class="review-price">Rs. 3299.00</span>
+                        </div>
+                        <a href="#" class="review-shop-btn">SHOP</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Animated Numbers Section -->
+    <section class="animated-numbers-section">
+        <h2 class="numbers-heading">Most Trusted Artisanal Brand</h2>
+        <div class="numbers-container">
+            <div class="number-item">
+                <span class="number-value" data-target="75000">0</span>
+                <span class="number-label">+ Orders Shipped</span>
+            </div>
+            <div class="number-item">
+                <span class="number-value" data-target="10000">0</span>
+                <span class="number-label">+ Pin-code Served in India</span>
+            </div>
+            <div class="number-item">
+                <span class="number-value" data-target="5000">0</span>
+                <span class="number-label">+ Zip-code Served Worldwide</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <h2 class="faq-heading">Frequently Asked Questions</h2>
+        <div class="faq-container">
+            <div class="faq-item">
+                <button class="faq-question">What fabrics do you use for your Kurtis? <i class="fa-solid fa-plus"></i></button>
+                <div class="faq-answer">
+                    <p>We use premium, breathable fabrics like pure cotton, Chanderi silk, Rayon, and Georgette to ensure maximum comfort and elegance in every piece.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">How do I choose the right size? <i class="fa-solid fa-plus"></i></button>
+                <div class="faq-answer">
+                    <p>Every product page includes a detailed size chart. We recommend measuring yourself and comparing it to our chart. If you are between sizes, we suggest sizing up for a more comfortable fit.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">What is your return and exchange policy? <i class="fa-solid fa-plus"></i></button>
+                <div class="faq-answer">
+                    <p>We offer a hassle-free 7-day return and exchange policy. Items must be unworn, unwashed, and have original tags attached.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">Do you ship internationally? <i class="fa-solid fa-plus"></i></button>
+                <div class="faq-answer">
+                    <p>Yes, we ship globally! We have served over 5,000+ zip codes worldwide. Shipping rates are calculated at checkout based on your location.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Follow Section -->
+    <section class="social-follow-section">
+        <div class="social-content">
+            <h2 class="social-heading">JOIN THE KUDDI COMMUNITY</h2>
+            <p class="social-subheading">Follow <strong>@kuddibypooja</strong> for daily styling inspiration, exclusive new arrivals, and a peek behind the seams of our beautiful kurtis.</p>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/kuddibypooja/" target="_blank" class="social-icon" title="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="#" class="social-icon" title="Facebook">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="#" class="social-icon" title="Pinterest">
+                    <i class="fa-brands fa-pinterest-p"></i>
+                </a>
+                <a href="#" class="social-icon" title="YouTube">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Founder Section -->
+    <section class="founder-section">
+        <div class="founder-container">
+            <div class="founder-image-wrapper">
+                <div class="founder-image-backdrop"></div>
+                <img src="images/product imgs (4).webp" alt="Founder of KUDDI" class="founder-image">
+            </div>
+            <div class="founder-content">
+                <span class="founder-eyebrow">BEHIND THE SEAMS</span>
+                <h2 class="founder-title">A Vision of Elegance</h2>
+                <p class="founder-text">
+                    "I created KUDDI with a simple vision: to bridge the timeless beauty of traditional Indian craftsmanship with the effortless elegance of modern everyday wear. Every thread is woven with passion, and every silhouette is designed to make you feel extraordinary."
+                </p>
+                <div class="founder-signature">Pooja</div>
+                <div class="founder-role">Founder & Creative Director</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mega Footer -->
+    <footer class="kuddi-footer">
+        <div class="footer-top">
+            <div class="newsletter-wrapper">
+                <input type="email" placeholder="EMAIL ADDRESS" class="newsletter-input">
+                <button class="newsletter-btn">SUBSCRIBE</button>
+            </div>
+        </div>
+        
+        <div class="footer-links-container">
+            <div class="footer-column">
+                <h3>EXPLORE BY CATEGORY</h3>
+                <ul>
+                    <li><a href="#">COTTON KURTIS</a></li>
+                    <li><a href="#">SILK KURTIS</a></li>
+                    <li><a href="#">ANARKALI SETS</a></li>
+                    <li><a href="#">CO-ORD SETS</a></li>
+                    <li><a href="#">SHORT KURTIS</a></li>
+                    <li><a href="#">LONG KURTIS</a></li>
+                    <li><a href="#">FESTIVE WEAR</a></li>
+                    <li><a href="#">DAILY WEAR</a></li>
+                    <li><a href="#">EMBROIDERED SETS</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>EXPLORE BY OCCASIONS</h3>
+                <ul>
+                    <li><a href="#">Wedding Edit</a></li>
+                    <li><a href="#">The Daily Luxe</a></li>
+                    <li><a href="#">Timeless Tones</a></li>
+                    <li><a href="#">The Festive Opus</a></li>
+                    <li><a href="#">The Bridal Ensemble</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>ABOUT BRAND</h3>
+                <ul>
+                    <li><a href="#">ABOUT US</a></li>
+                    <li><a href="#">OUR PACKAGING</a></li>
+                    <li><a href="#">OUR CRAFTSMANSHIP</a></li>
+                    <li><a href="#">BRAND AMBASSADOR PROGRAM</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-giant-text">
+            KUDDI
+        </div>
+
+        <div class="footer-bottom">
+            <div class="footer-bottom-left">
+                <p>Designed by harsh</p>
+                <div class="footer-legal-links">
+                    <a href="#">Privacy policy</a>
+                    <a href="#">Refund policy</a>
+                    <a href="#">Terms of service</a>
+                    <a href="#">Shipping policy</a>
+                    <a href="#">Contact Information</a>
+                </div>
+            </div>
+            <div class="footer-bottom-right">
+                <a href="#" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/kuddibypooja/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Animated Numbers
+        const counters = document.querySelectorAll('.number-value');
+        const speed = 150;
+
+        const animateCounters = () => {
+            counters.forEach(counter => {
+                const updateCount = () => {
+                    const target = +counter.getAttribute('data-target');
+                    const count = +counter.innerText.replace(/,/g, '');
+                    const inc = target / speed;
+
+                    if (count < target) {
+                        counter.innerText = Math.ceil(count + inc).toLocaleString();
+                        setTimeout(updateCount, 20);
+                    } else {
+                        counter.innerText = target.toLocaleString() + "";
+                    }
+                };
+                updateCount();
+            });
+        }
+
+        const observer = new IntersectionObserver((entries) => {
+            if(entries[0].isIntersecting) {
+                animateCounters();
+                observer.disconnect();
+            }
+        }, { threshold: 0.5 });
+
+        if(counters.length > 0) {
+            observer.observe(document.querySelector('.animated-numbers-section'));
+        }
+
+        // FAQ Accordion
+        const faqQuestions = document.querySelectorAll('.faq-question');
+        faqQuestions.forEach(question => {
+            question.addEventListener('click', () => {
+                const answer = question.nextElementSibling;
+                const icon = question.querySelector('i');
+                
+                // Close other open FAQs
+                faqQuestions.forEach(q => {
+                    if (q !== question) {
+                        q.classList.remove('active');
+                        q.querySelector('i').className = 'fa-solid fa-plus';
+                        q.nextElementSibling.style.maxHeight = null;
+                    }
+                });
+
+                question.classList.toggle('active');
+
+                if (question.classList.contains('active')) {
+                    icon.className = 'fa-solid fa-minus';
+                    answer.style.maxHeight = answer.scrollHeight + "px";
+                } else {
+                    icon.className = 'fa-solid fa-plus';
+                    answer.style.maxHeight = null;
+                }
+            });
+        });
+
+        // Hide circular categories scroll arrow on scroll
+        const categoriesContainer = document.querySelector('.categories-container');
+        const scrollHintArrow = document.querySelector('.scroll-hint-arrow');
+        if(categoriesContainer && scrollHintArrow) {
+            categoriesContainer.addEventListener('scroll', () => {
+                if(categoriesContainer.scrollLeft > 20) {
+                    scrollHintArrow.style.opacity = '0';
+                    scrollHintArrow.style.pointerEvents = 'none';
+                } else {
+                    scrollHintArrow.style.opacity = '1';
+                    scrollHintArrow.style.pointerEvents = 'auto';
+                }
+            });
+        }
+    </script>
+    
+    <!-- GSAP & Animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="animations.js"></script>
+</body>
+</html>
+
+
+
